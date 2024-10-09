@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Zkai-pembuat pro website resmi</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary"><img src="img/zk (2).png"></i></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="feature.html" class="dropdown-item active">Our Feature</a>
+                                <a href="product.html" class="dropdown-item">Our Product</a>
+                                <a href="Benefit.html" class="dropdown-item">Benefit</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div class="d-flex flex-column pe-3 border-end border-primary">
+                            <span class="text-primary">Get now</span>
+                            <a href="https://whas.me/rh7aKg9hSQ"><span class="text-primary">Free : +62 8571 235 4915</span></a>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="https://whas.me/rh7aKg9hSQ" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a>
+                </div>
+            </nav>
+
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb" style="background-image: url('img/bc.jpg'); background-size: cover; background-position: center;">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Features</h4>
+                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active text-primary">Feature</li>
+                    </ol>    
+                </div>
+            </div>
+            <!-- Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+                <!-- Modal Search Start -->
+                <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                                <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex align-items-center">
+                                <form action="https://www.google.com/search" method="get" class="w-75 mx-auto d-flex">
+                                    <input type="search" name="q" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                                    <button type="submit" id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Search End -->
+
+        <!-- feature Start -->
+<div class="container-fluid feature bg-light py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-uppercase text-primary">Layanan kami</h4>
+            <h1 class="display-3 text-capitalize mb-3">Layanan yang sudah terpercaya</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Feature Item 1 -->
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-check-circle text-white fa-3x"></i>
+                    </div>
+                    <a href="#" class="h4 mb-3">Bergaransi</a>
+                    <p class="mb-3">Garansi 14 hari Jika ada masalah teknis, kami perbaiki secara gratis! Kami pastikan website Anda berfungsi dengan baik dan sempurna!</p>
+                    <a href="#" class="btn text-secondary" data-bs-toggle="modal" data-bs-target="#warrantyModal">Read More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!-- Modal for Feature Item 1 -->
+            <div class="modal fade" id="warrantyModal" tabindex="-1" aria-labelledby="warrantyModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="warrantyModalLabel">Layanan Bergaransi di ZKAI Studios</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Di ZKAI Studios, kami berkomitmen memberikan hasil terbaik untuk setiap proyek yang kami kerjakan. Sebagai bagian dari komitmen kami terhadap kualitas, semua layanan kami dilengkapi dengan garansi kepuasan.</p>
+                            <p>Jika hasil akhir tidak sesuai dengan kesepakatan awal atau tidak memenuhi ekspektasi, kami siap melakukan revisi tanpa biaya tambahan, selama masih dalam periode garansi. Layanan bergaransi ini mencakup segala jenis proyek, mulai dari pembuatan website, desain grafis, hingga pemasaran digital.</p>
+                            <p>Dengan garansi ini, kami ingin memastikan bahwa setiap klien merasa puas dan percaya bahwa mereka berada di tangan yang tepat. Kami tidak hanya menyelesaikan proyek, tetapi juga memastikan bahwa Anda mendapatkan nilai maksimal dari solusi yang kami tawarkan.</p>
+                            <p>Keamanan dan kenyamanan Anda adalah prioritas utama kami.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Item 2 -->
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-filter text-white fa-3x"></i>
+                    </div>
+                    <a href="#" class="h4 mb-3">Optimisasi SEO</a>
+                    <p class="mb-3">Website yang dioptimalkan sejak awal untuk mesin pencari. Ini memberi keuntungan bagi bisnis klien agar lebih mudah ditemukan di Google!</p>
+                    <a href="#" class="btn text-secondary" data-bs-toggle="modal" data-bs-target="#seoModal">Read More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!-- Modal for Feature Item 2 -->
+            <div class="modal fade" id="seoModal" tabindex="-1" aria-labelledby="seoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="seoModalLabel">Layanan Optimasi SEO di ZKAI Studios</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Di era digital, Search Engine Optimization (SEO) menjadi salah satu kunci sukses bagi bisnis untuk tampil lebih unggul di mesin pencari seperti Google. Di ZKAI Studios, kami menawarkan layanan optimasi SEO yang dirancang untuk meningkatkan visibilitas online Anda, menarik lebih banyak pengunjung, dan memperkuat kehadiran digital Anda.</p>
+                            <h6>Apa itu SEO?</h6>
+                            <p>SEO adalah serangkaian teknik yang diterapkan untuk meningkatkan peringkat situs web Anda di hasil pencarian organik. Dengan optimasi yang tepat, website Anda bisa muncul di halaman pertama hasil pencarian, yang berarti lebih banyak peluang untuk ditemukan oleh calon pelanggan.</p>
+                            <h6>Mengapa SEO Penting?</h6>
+                            <ul>
+                                <li><strong>Peningkatan Traffic:</strong> Dengan peringkat yang lebih baik di mesin pencari, situs web Anda akan mendapatkan lebih banyak pengunjung secara organik.</li>
+                                <li><strong>Brand Awareness:</strong> Semakin tinggi posisi Anda di hasil pencarian, semakin besar peluang orang mengenal merek Anda.</li>
+                                <li><strong>Biaya Efektif:</strong> SEO adalah investasi jangka panjang yang lebih hemat dibandingkan iklan berbayar.</li>
+                                <li><strong>Kredibilitas & Kepercayaan:</strong> Situs yang muncul di peringkat atas sering kali dianggap lebih kredibel dan tepercaya oleh pengguna.</li>
+                            </ul>
+                            <h6>Layanan SEO yang Kami Tawarkan</h6>
+                            <ul>
+                                <li><strong>Riset Kata Kunci (Keyword Research):</strong> Kami melakukan analisis mendalam untuk menemukan kata kunci yang paling relevan dengan bisnis Anda.</li>
+                                <li><strong>Optimasi On-Page:</strong> Kami akan mengoptimalkan elemen di dalam situs web Anda, termasuk meta tags, judul, URL, dan struktur konten.</li>
+                                <li><strong>Optimasi Off-Page:</strong> Kami membangun otoritas situs web Anda melalui teknik link building.</li>
+                                <li><strong>Konten SEO Berkualitas:</strong> Kami menyediakan layanan pembuatan konten yang tidak hanya kaya kata kunci, tetapi juga memberikan nilai tambah bagi pengunjung.</li>
+                                <li><strong>SEO Teknis (Technical SEO):</strong> Kami memeriksa aspek teknis situs web seperti kecepatan halaman, struktur URL, peta situs (sitemap), dan mobile-friendliness.</li>
+                                <li><strong>Analisis dan Pelaporan:</strong> Kami menyediakan laporan berkala tentang perkembangan SEO situs Anda.</li>
+                            </ul>
+                            <h6>Keunggulan SEO di ZKAI Studios</h6>
+                            <ul>
+                                <li><strong>Pendekatan Terukur:</strong> Kami menggunakan data dan analitik untuk merancang strategi SEO yang paling efektif.</li>
+                                <li><strong>Tim Ahli:</strong> Tim kami terdiri dari ahli SEO yang berpengalaman dan selalu mengikuti tren terbaru di dunia SEO.</li>
+                                <li><strong>Hasil yang Terukur:</strong> Kami berfokus pada hasil yang nyata, seperti peningkatan traffic, konversi, dan posisi di mesin pencari.</li>
+                                <li><strong>Layanan Personalisasi:</strong> Setiap bisnis berbeda, dan kami memastikan strategi SEO yang kami buat disesuaikan dengan tujuan dan target pasar Anda.</li>
+                            </ul>
+                            <h6>Manfaat SEO di Jangka Panjang</h6>
+                            <p>SEO bukanlah proses instan, namun hasilnya akan berdampak dalam jangka panjang. Setelah situs web Anda dioptimalkan dengan baik, Anda bisa menikmati arus pengunjung yang lebih stabil dan konstan dari hasil pencarian organik, tanpa biaya iklan tambahan.</p>
+                            <p>Optimasi SEO di ZKAI Studios akan membantu Anda menjangkau lebih banyak audiens, meningkatkan brand awareness, dan mengubah pengunjung menjadi pelanggan. Percayakan optimasi SEO Anda kepada kami, dan biarkan situs Anda mendominasi hasil pencarian!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Item 3 -->
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-hourglass-start text-white fa-3x"></i>
+                    </div>
+                    <a href="#" class="h4 mb-3">Faster</a>
+                    <p class="mb-3">Pengerjaan Cepat Website Anda siap dalam 1 hingga 2 minggu! Dapatkan solusi website digital dengan design modern tanpa mengorbankan kualitas.</p>
+                    <a href="#" class="btn text-secondary" data-bs-toggle="modal" data-bs-target="#fasterModal">Read More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!-- Modal for Feature Item 3 -->
+            <div class="modal fade" id="fasterModal" tabindex="-1" aria-labelledby="fasterModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fasterModalLabel">Layanan Faster di ZKAI Studios</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Di dunia digital yang bergerak cepat, kecepatan menjadi salah satu faktor utama kesuksesan bisnis online. Di ZKAI Studios, kami menawarkan layanan Faster, sebuah solusi untuk meningkatkan kecepatan loading dan responsivitas website Anda. Dengan layanan ini, situs web Anda akan tampil lebih cepat, memberikan pengalaman pengguna yang lebih baik, dan meningkatkan peringkat SEO.</p>
+                            <h6>Mengapa Kecepatan Website Penting?</h6>
+                            <ul>
+                                <li><strong>Pengalaman Pengguna yang Lebih Baik:</strong> Website yang lambat cenderung membuat pengunjung meninggalkan situs lebih cepat. Kecepatan yang optimal akan membuat pengunjung tetap bertahan lebih lama.</li>
+                                <li><strong>Peningkatan Konversi:</strong> Website yang cepat meningkatkan peluang konversi karena pengunjung dapat mengakses informasi atau produk tanpa hambatan.</li>
+                                <li><strong>SEO yang Lebih Baik:</strong> Google dan mesin pencari lainnya memberikan peringkat lebih tinggi pada website yang memiliki waktu loading cepat.</li>
+                            </ul>
+                            <h6>Apa yang Termasuk dalam Layanan Faster?</h6>
+                            <ul>
+                                <li><strong>Optimasi Kecepatan Server:</strong> Kami memastikan server hosting Anda optimal untuk menangani permintaan dengan cepat dan efisien, mengurangi waktu loading.</li>
+                                <li><strong>Kompresi Gambar dan Media:</strong> Kami mengoptimalkan gambar, video, dan elemen media lainnya agar tetap berkualitas tanpa memperlambat loading situs.</li>
+                                <li><strong>Minifikasi CSS, HTML, dan JavaScript:</strong> Kami meminimalkan kode pada website Anda agar lebih ringan dan cepat dimuat tanpa mengurangi fungsionalitas.</li>
+                                <li><strong>Penerapan Caching:</strong> Dengan caching, halaman situs Anda akan dimuat lebih cepat pada kunjungan berikutnya, baik bagi pengguna baru maupun yang kembali.</li>
+                                <li><strong>Mobile Optimization:</strong> Layanan Faster memastikan website Anda cepat dan responsif di perangkat mobile, mengingat mayoritas pengguna internet sekarang mengakses situs dari ponsel.</li>
+                            </ul>
+                            <p>ZKAI Studios berkomitmen membuat website Anda lebih cepat dan lebih responsif. Dengan layanan Faster, Anda tidak hanya memberikan pengalaman pengguna terbaik, tetapi juga meningkatkan kinerja bisnis Anda di dunia digital.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Item 4 -->
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-microscope text-white fa-3x"></i>
+                    </div>
+                    <a href="#" class="h4 mb-3">Responsive</a>
+                    <p class="mb-3">Website yang responsive untuk memastikan tampilan yang sempurna di semua perangkat, baik itu smartphone, tablet, atau komputer.</p>
+                    <a href="#" class="btn text-secondary" data-bs-toggle="modal" data-bs-target="#responsiveModal">Read More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!-- Modal for Feature Item 4 -->
+            <div class="modal fade" id="responsiveModal" tabindex="-1" aria-labelledby="responsiveModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="responsiveModalLabel">Layanan Responsive di ZKAI Studios</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Di era digital saat ini, pengunjung mengakses website melalui berbagai perangkat, mulai dari smartphone, tablet, hingga komputer desktop. Di ZKAI Studios, kami menawarkan layanan Responsive yang memastikan bahwa website Anda tampil optimal di semua perangkat, memberikan pengalaman yang konsisten dan nyaman bagi setiap pengunjung, apa pun perangkat yang mereka gunakan.</p>
+                            <h6>Mengapa Website Responsif Penting?</h6>
+                            <ul>
+                                <li><strong>Pengalaman Pengguna Lebih Baik:</strong> Website responsif secara otomatis menyesuaikan tampilan sesuai ukuran layar, membuat pengunjung lebih mudah bernavigasi tanpa gangguan.</li>
+                                <li><strong>SEO yang Lebih Baik:</strong> Google dan mesin pencari lainnya memberi peringkat lebih tinggi pada situs yang responsif, karena memberikan pengalaman pengguna yang optimal.</li>
+                                <li><strong>Meningkatkan Konversi:</strong> Pengunjung yang dapat dengan mudah menjelajahi dan berinteraksi dengan website di perangkat apa pun, lebih mungkin untuk berkonversi menjadi pelanggan.</li>
+                                <li><strong>Efisiensi:</strong> Satu website untuk semua perangkat menghemat biaya pengembangan dan pemeliharaan dibandingkan memiliki situs terpisah untuk mobile dan desktop.</li>
+                            </ul>
+                            <h6>Apa yang Termasuk dalam Layanan Responsive?</h6>
+                            <ul>
+                                <li><strong>Desain Fleksibel:</strong> Kami merancang website Anda dengan layout yang fleksibel, menggunakan grid dan elemen yang menyesuaikan secara otomatis ke berbagai ukuran layar.</li>
+                                <li><strong>Optimasi Mobile-First:</strong> Kami memastikan website Anda dioptimalkan terlebih dahulu untuk perangkat mobile, tempat mayoritas pengguna internet mengakses situs saat ini.</li>
+                                <li><strong>Navigasi yang Mudah:</strong> Menu dan navigasi situs disesuaikan agar tetap mudah digunakan pada layar kecil tanpa mengorbankan fungsionalitas.</li>
+                                <li><strong>Pengujian Multi-Device:</strong> Kami melakukan pengujian pada berbagai perangkat dan browser untuk memastikan tampilan dan fungsi website berjalan sempurna di semua platform.</li>
+                            </ul>
+                            <p>ZKAI Studios berkomitmen menghadirkan desain responsif yang membuat website Anda terlihat profesional dan fungsional di berbagai perangkat. Dengan layanan Responsive, Anda tidak hanya memperbaiki pengalaman pengguna, tetapi juga meningkatkan peluang bisnis dan kredibilitas online Anda.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- feature End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative mx-auto">
+                            <input id="about-email-input" class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Sedang error pilih yang bawah">
+                            <button id="about-subscribe-button" type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h3 class="text-white mb-4"><i class=""></i>Zkai</h3>
+                                <p class="mb-3">Jika Anda membutuhkan bantuan lebih lanjut atau ingin mendiskusikan sesuatu secara langsung, jangan ragu untuk menghubungi kami. Anda juga dapat mengatur jadwal pertemuan sesuai kebutuhan Anda.</p>
+                            </div>
+                            <form id="subscribe-form">
+                                <div class="position-relative">
+                                    <input id="email-input" name="email" class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                    <button type="submit" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Jam Kerja</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Senin - Jum'at:</h6>
+                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Sabtu:</h6>
+                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Vacation:</h6>
+                                <p class="text-white mb-0">All Sunday is our vacation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Alamat</h4>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i>JVGW+4W5 Surusunda, Kabupaten Cilacap, Jawa Tengah</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> zkaiii470@gmail.com</a>
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +62 8571 2354 914</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Zkai Studio 2024</a>, All right reserved.</span>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
