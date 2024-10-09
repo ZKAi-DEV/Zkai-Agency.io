@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://zkai-agency-io.vercel.app/</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/index.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/about</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/about.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/services</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/services.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/blog</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/blog.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/contact</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/contact.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/our-feature</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/our-feature.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/our-product</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/our-product.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/benefit</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/benefit.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/testimonial</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/testimonial.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://zkai-agency-io.vercel.app/404</loc>
+        <loc>https://zkai-dev.github.io/Zkai-Agency.io/404.html</loc>
         <lastmod>2023-10-01</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.1</priority>
